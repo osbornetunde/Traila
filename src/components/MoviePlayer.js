@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import styled, { keyframes } from "styled-components";
+import { devices } from "../utils/styledUtils";
 
 const modalRoot = document.getElementById("modal-root");
 
@@ -28,6 +29,10 @@ const StyledModalBackdrop = styled.div`
     /* opacity: 1; */
     animation: ${show} 700ms forwards;
   }
+
+  ${devices.md`
+    margin: auto;
+  `}
 `;
 
 const StyleModal = styled.div`

@@ -29,7 +29,7 @@ class Movies extends React.Component {
   }
 
   render() {
-    console.log("Movie content: ", this.props.movies);
+    // console.log("env path: ", process.env.PUBLIC_URL);
     return (
       <>
         <StyledHeader>

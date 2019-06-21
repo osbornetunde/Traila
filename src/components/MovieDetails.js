@@ -16,6 +16,16 @@ const show = keyframes`
 to {
   transform: translateY(0);
   opacity: 1;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+`;
+
+const appear = keyframes`
+to {
+  transform: translateX(0);
+  opacity: 1;
+  animation-fill-mode: ease-out;
 }
 `;
 
@@ -66,6 +76,36 @@ const StyledSmallBtn = styled(Link)`
   &:active {
     transform: translateY(4px);
   }
+`;
+
+const StyledFrame = styled.iframe`
+  min-width: 400px;
+  min-height: 300px;
+
+  &,
+  & > * {
+    transform: translateX(150px);
+    opacity: 0;
+    animation: ${appear} 1000ms backwards;
+    animation-delay: 2s;
+  }
+
+  ${devices.sm`
+    min-width: 500px;
+    min-height: 300px;
+    `}
+
+${devices.md`
+    min-width: 700px;
+    min-height: 500px;
+  `}
+
+  ${devices.lg`
+      min-width: 971px;
+      min-height: 546px;
+    `}
+
+  
 `;
 
 class MovieDetails extends React.Component {
@@ -146,9 +186,9 @@ class MovieDetails extends React.Component {
             {!trailer ? (
               <StyledLoader />
             ) : (
-              <iframe
-                width="971"
-                height="546"
+              <StyledFrame
+                // width="971"
+                // height="546"
                 title="videoplayer"
                 src={`https://youtube.com/embed${this.state.videoId}`}
                 frameBorder="0"
