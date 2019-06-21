@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/traila/precache-manifest.5d1035a7c44cb266824cd97b87e402ec.js"
+  "/traila/precache-manifest.83d83b314d01ec0ab4dc5711fb9555d5.js"
 );
 
 self.addEventListener('message', (event) => {
