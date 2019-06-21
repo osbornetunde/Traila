@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/traila/static/css/main.19c361b0.chunk.css",
+    "main.js": "/traila/static/js/main.0f08fd14.chunk.js",
+    "main.js.map": "/traila/static/js/main.0f08fd14.chunk.js.map",
+    "runtime~main.js": "/traila/static/js/runtime~main.49a12fef.js",
+    "runtime~main.js.map": "/traila/static/js/runtime~main.49a12fef.js.map",
+    "static/css/2.39017165.chunk.css": "/traila/static/css/2.39017165.chunk.css",
+    "static/js/2.fed09927.chunk.js": "/traila/static/js/2.fed09927.chunk.js",
+    "static/js/2.fed09927.chunk.js.map": "/traila/static/js/2.fed09927.chunk.js.map",
+    "index.html": "/traila/index.html",
+    "precache-manifest.5d1035a7c44cb266824cd97b87e402ec.js": "/traila/precache-manifest.5d1035a7c44cb266824cd97b87e402ec.js",
+    "service-worker.js": "/traila/service-worker.js",
+    "static/css/2.39017165.chunk.css.map": "/traila/static/css/2.39017165.chunk.css.map",
+    "static/css/main.19c361b0.chunk.css.map": "/traila/static/css/main.19c361b0.chunk.css.map"
+  }
+}
