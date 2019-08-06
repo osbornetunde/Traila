@@ -36,7 +36,7 @@ const StyledModalBackdrop = styled.div`
 `;
 
 const StyleModal = styled.div`
-  padding: 20;
+  padding: 20px;
   background: #fff;
   border-radius: 2px;
   display: inline-block;

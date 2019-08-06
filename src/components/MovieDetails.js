@@ -86,8 +86,8 @@ const StyledFrame = styled.iframe`
   & > * {
     transform: translateX(150px);
     opacity: 0;
-    animation: ${appear} 1000ms backwards;
-    animation-delay: 2s;
+    animation: ${appear} 1000ms forwards;
+    animation-delay: 1s;
   }
 
   ${devices.sm`

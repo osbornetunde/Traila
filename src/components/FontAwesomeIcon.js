@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 const FontAwesomeIcon = ({ icon = "ellipsis-h", text = false, onClick }) => (
   <div onClick={onClick}>

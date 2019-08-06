@@ -3,7 +3,7 @@ import styled from "styled-components";
 const StyledHeader = styled.header`
   height: 70px;
   display: flex;
-  color: #8b9095;
+  color: #4c4e52;
   font-size: 0.8rem;
   align-items: center;
   > * {
@@ -12,3 +12,5 @@ const StyledHeader = styled.header`
 `;
 
 export default StyledHeader;
+
+//#8b9095

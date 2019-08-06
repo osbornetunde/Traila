@@ -10,11 +10,13 @@ const GlobalStyle = createGlobalStyle`
     html,
     body {
         height: 100%;
+        font-size: 125.75%;
     }
     body {
         margin: 0;
         padding: 0;
         font-family: "Roboto", sans-serif;
+        
     }
 
     #root {

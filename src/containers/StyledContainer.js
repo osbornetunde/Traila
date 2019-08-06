@@ -13,7 +13,7 @@ const StyledContainer = styled.div`
     top: 15vh;
     left: 8vw;
     font-size: 9vw;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.2);
   }
 `;
 
